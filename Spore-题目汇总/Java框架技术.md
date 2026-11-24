@@ -940,9 +940,9 @@
 
 ![题目](images/20261117-114652862.jpg)
 
-**解答**：A（-1）
+**解答**：C（@Transactional）
 
-**解析**：Spring声明式事务管理通过@Transaction注解实现
+**解析**：Spring 声明式事务管理用 @Transactional 注解；@Transaction 这个注解并不存在，@Commit、@TransactionalScope 也不是 Spring 的事务注解。
 
 ### 110. 第58题 注解能否同方法使用 ⭐
 

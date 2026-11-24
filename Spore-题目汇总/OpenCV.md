@@ -239,9 +239,9 @@
 
 ![题目](images/20261014-112713.jpg)
 
-**解答**：A（+1）B（+1）D（+1）
+**解答**：A（+1）B（+1）C（+1）D（+1）
 
-**解析**：单通道可表示颜色分量或Alpha、深度等，灰度图专指亮度，两者语义不同。
+**解析**：A、B、D 正确；C 说两者数据结构都是二维数组、形式相同同样成立（与第4题的判据一致），只有 E“语义完全相同”错。
 
 **追问 1**：**D 对，是因为"单通道"只是数据结构描述，"亮度"是语义解释——两者不能划等号。**
 
@@ -615,9 +615,9 @@ if not cap.isOpened():
 
 ![题目](images/20261104-112242.jpg)
 
-**解答**：B（ADAPTIVE_THRESH_GAUSSIAN_C）、D（ADAPTIVE_THRESH_MEDIAN_C）、E（ADAPTIVE_THRESH_MEAN_C）
+**解答**：B（ADAPTIVE_THRESH_GAUSSIAN_C）、E（ADAPTIVE_THRESH_MEAN_C）
 
-**解析**：cv2.adaptiveThreshold 仅支持 ADAPTIVE_THRESH_MEAN_C 和 GAUSSIAN_C 两种方法。
+**解析**：cv2.adaptiveThreshold 的 adaptiveMethod 只支持 ADAPTIVE_THRESH_MEAN_C 与 ADAPTIVE_THRESH_GAUSSIAN_C 两种；ADAPTIVE_THRESH_MEDIAN_C 并不存在，THRESH_BINARY/THRESH_BINARY_INV 属于 type 参数而非 adaptiveMethod。
 
 ### 63. 第27题 大津阈值法特点
 
@@ -897,9 +897,9 @@ if not cap.isOpened():
 
 ![题目](images/20261118-111659504.jpg)
 
-**解答**：A（错）
+**解答**：B（正确）
 
-**解析**：图中A选项被标为绿色，且其定义“颜色相同的像素区域”实为连通域，轮廓B选项描述才正确。
+**解析**：轮廓是物体边界上连续连通的像素序列，反映形状而非颜色纹理，B 描述正确；A 的“颜色相同的像素区域”说的是连通域/颜色区域，并非轮廓。
 
 **追问 1**：**答案：B**
 
