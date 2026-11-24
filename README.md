@@ -40,11 +40,11 @@
 
 ## 使用
 
-直接下载对应文件即可。Markdown 文件可用任意编辑器**（例如IDEA）**，或者 GitHub 网页查看；Word / PPT 文件下载后打开。
+直接下载对应文件即可。Markdown 文件可用任意编辑器（**例如IDEA**），或者 GitHub 网页查看；Word / PPT 文件下载后打开。
 
 ## 软广
 
-嫌编辑器打开`.md`文件不方便？试试**[MDPad](https://github.com/Offblink/MDPad)**（我做的嘻嘻😁），一个 Windows 上的 Markdown 编辑器：
+嫌编辑器打开`.md`文件不方便？试试[MDPad](https://github.com/Offblink/MDPad)（我做的嘻嘻😁），一个 Windows 上的 Markdown 编辑器：
 
 - 双击 `.md` 直接开，Fluent 风格界面，深色/浅色都跟系统走；
 - 实时预览，KaTeX 公式和 mermaid 流程图都能直接渲染；
