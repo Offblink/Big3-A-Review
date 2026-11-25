@@ -43,7 +43,7 @@
 
 ## 使用
 
-直接下载对应文件即可。Markdown 文件可用任意编辑器（**例如IDEA**），或者 GitHub 网页查看；Word / PPT 文件下载后打开。
+直接下载对应文件即可。Markdown 文件可用任意编辑器，或者 GitHub 网页查看；Word / PPT 文件下载后打开。
 
 ## 软广
 
